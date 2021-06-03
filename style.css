@@ -1,0 +1,123 @@
+:root {
+    --Primary-Violet: hsl(257, 40%, 49%);
+    --Primary-Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+}
+
+body {
+    background-color: var(--Primary-Violet);
+    background-image: url("/images/bg-desktop.svg");
+    color: white;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    line-height: 2;
+}
+
+header {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container-1 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    /* border: 3px solid blue; */
+    width: 50%;
+}
+
+.flex-container-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.flex-container-2 {
+    /* border: 3px solid lightcoral; */
+    width: 50%;
+}
+
+.btn {
+    border: 0;
+    border-radius: 25px;
+    color: var(--Primary-Violet);
+    background-color: white;
+    padding-left: 4em;
+    padding-right: 4rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    box-shadow: 5px 5px 5px 0px rgb(68, 1, 68);
+}
+
+.btn:hover {
+    background-color: lightpink;
+}
+
+.icon-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1rem;
+}
+
+.niceBox {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 375px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .flex-container-1 {
+        width: auto;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .flex-container-2 {
+        width: auto;
+        text-align: center;
+    }
+
+    .flex-container-2 > p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 1.2rem;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 4rem;
+        width: 50%;
+    }
+
+    .icon-footer {
+        justify-content: center;
+    }
+}
