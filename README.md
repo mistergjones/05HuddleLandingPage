@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://github.com/mistergjones/05HuddleLandingPage)
--   Live Site URL: [Add live site URL here](https://mistergjones.github.io/05HuddleLandingPage/)
+-   Solution URL: (https://github.com/mistergjones/05HuddleLandingPage)
+-   Live Site URL: (https://mistergjones.github.io/05HuddleLandingPage/)
 
 ### Built with
 
